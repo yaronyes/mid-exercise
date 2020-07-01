@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;    
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.searchbox {
+    display: inline-block;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.row, ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.separator {
+    background-image: url("../img/menu_sep.png");
+    width: 4px;
+    margin: 0 16px;
+}
+
