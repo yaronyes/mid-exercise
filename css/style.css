@@ -149,7 +149,8 @@ a:hover {
     display: none;
     position: absolute;
     width: max-content;
-    top: 33px;            
+    top: 33px;
+    z-index: 1;            
 }
 
 .dropdown-content > .dropdown-sep {
