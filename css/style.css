@@ -85,6 +85,10 @@ ul {
     justify-content: flex-end;
 }
 
+ul > li.dropdown {
+    height: 100%;
+}
+
 ul .home-img {
     background-image: url("../img/menu_home.png");
     width: 17px;    
@@ -105,4 +109,41 @@ a:hover {
 
 .header > nav a {
     font-size: 15px;
+    height: 100%;
+}
+
+.dropdown:hover > .dropdown-content {
+    display: block;    
+}
+
+.dropdown > .dropdown-content > a {
+    display: block;
+    /* height: 30px;     */
+    padding: 7.5px 4px;
+} 
+
+.dropdown {
+    position: relative;    
+}
+
+.dropdown > .dropdown-content {    
+    background-image: url("../img/menu_dropdown_bg.png");
+    background-size: cover;
+    display: none;
+    position: absolute;
+    width: max-content;
+    top: 33px;            
+}
+
+.dropdown-content > .dropdown-sep {
+    display: block;
+    background-image: url("../img/menu_dropdown_sep.png");
+    width: 100%;
+    height: 2px;    
+    /* margin: 0 16px;
+    background-repeat: no-repeat; */
+}
+
+.dropdown > .dropdown-content > a:hover { 
+    background-color: #d1d1d1;
 }
