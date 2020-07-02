@@ -7,7 +7,12 @@ body {
     text-align: right;
     font-family: 'Arial (Hebrew)', Arial;
     padding-bottom: 38px;
+    margin: 0;
 }
+
+/* .main-container {
+    width: 900px;
+} */
 
 nav > ul {
     list-style-type: none;
@@ -20,6 +25,10 @@ nav > ul {
     flex-wrap: wrap;
 }
 
+.row, .header {
+    width: 900px;
+}
+
 .separator {
     background-image: url("../img/menu_sep.png");
     width: 4px;
@@ -28,10 +37,16 @@ nav > ul {
 }
 
 .header {    
-    width: 900px;
+    /* width: 900px; */
     height: 105px;
     margin: auto;
     align-content: space-between;
+    position: relative;
+}
+
+.header > .logo {
+    position: absolute;
+    top: 35px;
 }
 
 .searchbox {
@@ -147,3 +162,21 @@ a:hover {
 .dropdown > .dropdown-content > a:hover { 
     background-color: #d1d1d1;
 }
+
+.row {
+    justify-content: space-between;
+    margin: auto;
+}
+
+.col-293 {
+    width: 293px;
+}
+
+.col-293 > img {
+    border-bottom-right-radius: 25px;
+}
+
+.first-row {
+    margin-top: 30px;
+}
+
