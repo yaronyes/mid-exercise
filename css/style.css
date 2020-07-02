@@ -104,11 +104,13 @@ ul > li.dropdown {
     height: 100%;
 }
 
-ul .home-img {
+ul .home-img > a {
     background-image: url("../img/menu_home.png");
-    width: 17px;    
+    width: 17px; 
+    height: 33px;   
     background-position: top right;
     background-repeat: no-repeat;
+    display: inline-block;
 }
 
 a {        
@@ -170,6 +172,7 @@ a:hover {
 
 .col-293 {
     width: 293px;
+    position: relative;
 }
 
 .col-293 > img {
@@ -178,5 +181,49 @@ a:hover {
 
 .first-row {
     margin-top: 30px;
+    color: #ffffff;    
 }
 
+.first-row > .col-293 > .col-text > h4 {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+
+.first-row > .col-293 > .col-text > p {
+    font-size: 13px;
+    margin: 4px 0 0;
+    width: 228px;
+    height: 52px;
+}
+
+.first-row > .col-293 > .col-text > a {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 13px;    
+    margin-right: 170px;          
+}
+
+.first-row > .col-293 > .col-text > a:hover > .arrow-img {
+    background-image: url("../img/read_more_blue.png");    
+    /* opacity: 0.5; */
+    
+}
+
+.first-row > .col-293 > .col-text > a > .arrow-img {
+    background-image: url("../img/read_more_white.png");
+    display: inline-block;
+    width: 8px;
+    height: 9px;
+}
+
+.first-row > .col-293 > .col-text {
+    width: 248px;
+    height: 97px;
+    background-image: url("../img/hp_tab_text_bg.png");
+    padding-right: 10px;
+    opacity: 1.6;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
