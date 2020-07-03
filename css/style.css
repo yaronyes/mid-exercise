@@ -20,7 +20,7 @@ nav > ul {
     margin: 0;
 }
 
-.row, .header, ul, .search-area, .col-stations {
+.row, .header, ul, .search-area, .stations-content {
     display: flex;
     flex-wrap: wrap;
 }
@@ -211,9 +211,6 @@ a.white-arrow {
     top: -5px;
 }
 
-/* .first-row > .col-293 > .col-text > a:hover > .arrow-img,
-.second-row > .col-292 > .col-content > a:hover > .yellow-arrow-img,
-.second-row > .col-292 > .col-content .location-nav a:hover > .yellow-arrow-img { */
 a.white-arrow:hover > .arrow-img,
 a.yellow-arrow:hover > .yellow-arrow-img {    
     background-image: url("../img/read_more_blue.png");    
@@ -267,7 +264,6 @@ a.yellow-arrow {
     display: table;
 }
 
-/* .second-row > .col-292 > .col-content a > .yellow-arrow-img { */
 a.yellow-arrow > .yellow-arrow-img {    
     background-image: url("../img/read_more_yellow.png");
     display: inline-block;
@@ -293,11 +289,15 @@ a.yellow-arrow > .yellow-arrow-img {
     line-height: 34px
 }
 
+.second-row > .col-292 > .col-stations > h4 {
+    margin: 0 0 6px;
+}
+
 .second-row > .col-292 > .col-content .location-nav ul {
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-/* .second-row > .col-292 > col-stations {
-
-} */
+.stations-content {
+    justify-content: space-between;
+}
