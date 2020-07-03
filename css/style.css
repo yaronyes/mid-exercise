@@ -20,12 +20,12 @@ nav > ul {
     margin: 0;
 }
 
-.row, .header, ul, .search-area, .stations-content {
+.row, .header, ul, .search-area, .stations-content, .fixed-fotter {
     display: flex;
     flex-wrap: wrap;
 }
 
-.row, .header {
+.row, .header, .fixed-fotter > nav > ul {
     width: 900px;
 }
 
@@ -308,5 +308,29 @@ a.yellow-arrow > .yellow-arrow-img {
     height: 38px;
     width: 100%;
     position: fixed;
-    bottom: 0;    
+    bottom: 0;
+    justify-content: center; 
+    align-items: center;         
+}
+
+ul .fb-img > a {
+    background-image: url("../img/fb_icon.png");
+    width: 18px; 
+    height: 18px;   
+    display: inline-block;
+}
+
+.fixed-fotter a, .fixed-fotter li.footer-sep {
+    color: #ffffff;        
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.fixed-fotter li.footer-sep {
+    margin: 0 5px;
+}
+
+.fixed-fotter > nav {
+    position: relative;
+    bottom: -5px;
 }
