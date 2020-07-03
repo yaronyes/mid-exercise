@@ -94,7 +94,7 @@ nav > ul {
     background-image: url("../img/header_bg.png");
 }
 
-ul {
+header ul {
     width: 100%;    
     height: 33px; 
     justify-content: flex-end;
@@ -265,11 +265,17 @@ a:hover {
     display: table;
 }
 
-.second-row > .col-292 > .col-content > a > .yellow-arrow-img {
+.second-row > .col-292 > .col-content a > .yellow-arrow-img {
     background-image: url("../img/read_more_yellow.png");
     display: inline-block;
     width: 8px;
     height: 9px;
+}
+
+.second-row > .col-292 > .col-content > .location-nav a {
+    display: block;
+    font-size: 13px;
+    margin: 5px;
 }
 
 .second-row > .col-292 > .col-content {    
@@ -282,4 +288,9 @@ a:hover {
     font-size: 14px;        
     margin: 0 0 15px;
     line-height: 34px
+}
+
+.second-row > .col-292 > .col-content > .location-nav ul {
+    flex-direction: column;
+    justify-content: space-evenly;
 }
