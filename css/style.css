@@ -347,7 +347,7 @@ ul .fb-img > a {
     bottom: -5px;
 }
 
-.fixed-fotter li:last-child > a {
+.fixed-fotter li.red-link > a {
     color: #ff0000;
 }
 
