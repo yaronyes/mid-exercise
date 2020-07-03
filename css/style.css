@@ -113,7 +113,7 @@ ul .home-img > a {
     display: inline-block;
 }
 
-a {        
+.header a, .first-row a {        
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
@@ -171,12 +171,12 @@ a:hover {
     margin: auto;
 }
 
-.col-293 {
+.first-row > .col-293 {
     width: 293px;
     position: relative;
 }
 
-.col-293 > img {
+.first-row > .col-293 > img {
     border-bottom-right-radius: 25px;
 }
 
@@ -189,6 +189,7 @@ a:hover {
     font-weight: bold;
     font-size: 14px;
     margin: 0;
+    padding-top: 10px;
 }
 
 .first-row > .col-293 > .col-text > p {
@@ -196,16 +197,22 @@ a:hover {
     margin: 4px 0 0;
     width: 228px;
     height: 52px;
+    line-height: 100%;
 }
 
 .first-row > .col-293 > .col-text > a {
     display: inline-block;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     font-size: 13px;    
-    margin-right: 170px;          
+    margin-right: 175px;          
+    position: relative;
+    top: -5px;
+    font-weight: normal;
+    text-decoration: underline;
 }
 
-.first-row > .col-293 > .col-text > a:hover > .arrow-img {
+.first-row > .col-293 > .col-text > a:hover > .arrow-img,
+.second-row > .col-292 > .col-content > a:hover > .yellow-arrow-img {
     background-image: url("../img/read_more_blue.png");    
     /* opacity: 0.5; */
     
@@ -225,6 +232,49 @@ a:hover {
     padding-right: 10px;
     opacity: 1.6;
     position: absolute;
-    bottom: 10px;
+    bottom: 8px;
     right: 5px;
+}
+
+.second-row {
+    margin-top: 15px;
+}
+
+.second-row > .col-292 {
+    width: 292px;
+    height: 216px;
+    position: relative;
+    background-image: url("../img/small_cube_bg.png");
+    color: #575757;
+}
+
+.second-row > .col-292 > .col-content > a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 13px;    
+    margin-right: 160px;        
+}
+
+.second-row > .col-292 > .col-content > a > .yellow-arrow-img {
+    background-image: url("../img/read_more_yellow.png");
+    display: inline-block;
+    width: 8px;
+    height: 9px;
+}
+
+.second-row > .col-292 > .col-content {
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+}
+
+.second-row > .col-292 > .col-content > h4 {
+    font-size: 14px;
+    /* padding: 4px 2px 4px; */
+    margin: 0 0 25px;
+    /* position: relative;
+    right: 30px;
+    top: -10px;
+    height: 24px;
+    margin: 0; */
 }
