@@ -416,7 +416,18 @@ textarea {
 
 .contact-form {
     position: absolute;
-    bottom: 50px;
+    bottom: 25px;
     right: 20px;
+}
+
+#submit {
+    color: #ffffff;
+    background-color: #3873b0;
+    max-width: 40px;
+    margin-right: auto;
+}
+
+#submit:hover {
+    background-color: #eab330;
 }
 
