@@ -214,8 +214,7 @@ a:hover {
 .first-row > .col-293 > .col-text > a:hover > .arrow-img,
 .second-row > .col-292 > .col-content > a:hover > .yellow-arrow-img {
     background-image: url("../img/read_more_blue.png");    
-    /* opacity: 0.5; */
-    
+    /* opacity: 0.5; */   
 }
 
 .first-row > .col-293 > .col-text > a > .arrow-img {
@@ -229,8 +228,7 @@ a:hover {
     width: 248px;
     height: 97px;
     background-image: url("../img/hp_tab_text_bg.png");
-    padding-right: 10px;
-    /* padding: 10px; */
+    padding-right: 10px;    
     opacity: 1.6;
     position: absolute;
     bottom: 8px;
@@ -254,7 +252,10 @@ a:hover {
     margin-top: 20px;
     font-size: 13px;    
     float: left;
-    /* margin-right: 160px;         */
+}
+
+.second-row > .col-292 > .col-content > a:visited {
+    color: #575757;
 }
 
 .second-row > .col-292 > .col-content::after,
