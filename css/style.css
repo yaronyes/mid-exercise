@@ -301,3 +301,12 @@ a.yellow-arrow > .yellow-arrow-img {
 .stations-content {
     justify-content: space-between;
 }
+
+.fixed-fotter {
+    background-image: url("../img/footer_bg.png");
+    background-repeat: repeat-x;
+    height: 38px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;    
+}
