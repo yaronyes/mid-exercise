@@ -20,7 +20,7 @@ nav > ul {
     margin: 0;
 }
 
-.row, .header, ul, .search-area {
+.row, .header, ul, .search-area, .col-stations {
     display: flex;
     flex-wrap: wrap;
 }
@@ -200,7 +200,7 @@ a:hover {
     line-height: 100%;
 }
 
-.first-row > .col-293 > .col-text > a {
+a.white-arrow {
     display: block;    
     font-size: 13px;    
     font-weight: normal;
@@ -211,13 +211,15 @@ a:hover {
     top: -5px;
 }
 
-.first-row > .col-293 > .col-text > a:hover > .arrow-img,
-.second-row > .col-292 > .col-content > a:hover > .yellow-arrow-img {
+/* .first-row > .col-293 > .col-text > a:hover > .arrow-img,
+.second-row > .col-292 > .col-content > a:hover > .yellow-arrow-img,
+.second-row > .col-292 > .col-content .location-nav a:hover > .yellow-arrow-img { */
+a.white-arrow:hover > .arrow-img,
+a.yellow-arrow:hover > .yellow-arrow-img {    
     background-image: url("../img/read_more_blue.png");    
-    /* opacity: 0.5; */   
 }
 
-.first-row > .col-293 > .col-text > a > .arrow-img {
+a.white-arrow > .arrow-img {
     background-image: url("../img/read_more_white.png");
     display: inline-block;
     width: 8px;
@@ -247,16 +249,16 @@ a:hover {
     color: #575757;
 }
 
-.second-row > .col-292 > .col-content > a {
+a.yellow-arrow {
     display: block;
     margin-top: 20px;
     font-size: 13px;    
     float: left;
 }
 
-.second-row > .col-292 > .col-content > a:visited {
+/* .second-row > .col-292 > .col-content > a:visited {
     color: #575757;
-}
+} */
 
 .second-row > .col-292 > .col-content::after,
 .first-row > .col-293 > .col-text::after {
@@ -265,14 +267,15 @@ a:hover {
     display: table;
 }
 
-.second-row > .col-292 > .col-content a > .yellow-arrow-img {
+/* .second-row > .col-292 > .col-content a > .yellow-arrow-img { */
+a.yellow-arrow > .yellow-arrow-img {    
     background-image: url("../img/read_more_yellow.png");
     display: inline-block;
     width: 8px;
     height: 9px;
 }
 
-.second-row > .col-292 > .col-content > .location-nav a {
+.second-row > .col-292 > .col-content .location-nav a {
     display: block;
     font-size: 13px;
     margin: 5px;
@@ -290,7 +293,11 @@ a:hover {
     line-height: 34px
 }
 
-.second-row > .col-292 > .col-content > .location-nav ul {
+.second-row > .col-292 > .col-content .location-nav ul {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+/* .second-row > .col-292 > col-stations {
+
+} */
