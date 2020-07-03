@@ -121,7 +121,7 @@ ul .home-img > a {
     text-decoration: none;
 }
 
-a:hover, .fixed-fotter a:hover {
+a:hover, .fixed-fotter a:hover, .row-292 a:hover {
     text-decoration: underline;
     color: #2c5b9e;    
 }
@@ -348,14 +348,23 @@ ul .fb-img > a {
 .contact-row {
     color: #72716d;
     justify-content: space-between;
+    /* margin-top: 32px; */
+    padding-top: 32px;
 }
 
 .row-292 {
-    width: 292px;
+    margin-top: 20px;
+    width: 100%;
     height: 175px;
     /* position: relative; */
-    background-image: url("../img/small_cube_bg.png");
+    background-image: url("../img/cube_bg.png");
+    background-repeat: no-repeat;
     /* color: #575757; */
+}
+
+.col-con-292 {
+    width: 292px;
+    margin-top: 32px;
 }
 
 .col-122 {
@@ -366,7 +375,7 @@ ul .fb-img > a {
     width: 440px;
 }
 
-.col-440 > h4, .contact-form > h4 {
+.col-440 > h4, .contact-form > h4, .row-292 > .row-content > h4 {
     font-size: 15px;
 }
 
@@ -376,12 +385,21 @@ ul .fb-img > a {
     padding-bottom: 4px;    
 }
 
+.col-440 > .nav-location {
+    font-size: 12px;
+    color: #5c5c5c;
+}
+
+.col-440 > .nav-location  > p {
+    margin-top: 0;
+}
+
 .contact-form {
     color: #72716d;
     font-size: 12px;
 }
 
-.contact-form > h4 {
+.contact-form > h4, .row-292 > .row-content > h4 {
     color: #005ca0;
     margin: 5px 0;
 }
@@ -397,6 +415,7 @@ ul .fb-img > a {
 .contact-form > .input-container {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .contact-form > .input-container > .form-line {
@@ -431,3 +450,25 @@ textarea {
     background-color: #eab330;
 }
 
+.col-con-292 > .row-292 > .row-content {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    position: relative;
+    top: 18px;
+    right: 20px;
+}
+
+.col-con-292 > .row-292 > .row-content > h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.row-292 a {
+    text-decoration: none;
+}
