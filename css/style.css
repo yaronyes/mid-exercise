@@ -394,11 +394,6 @@ ul .fb-img > a {
     font-weight: bold;
 }
 
-/* .contact-form  label {
-    display: inline-block;
-    width: 130px;
-} */
-
 .contact-form > .input-container {
     flex-direction: column;
     justify-content: center;
@@ -415,10 +410,13 @@ textarea {
     height: 100px;
 }
 
-/* .form-container {
-    background-image: url("../img/contact_form_bg.png");
-} */
+.form-container {
+    position: relative;    
+}
 
-/* .contact-form {
-    
-} */
+.contact-form {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+}
+
