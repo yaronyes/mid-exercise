@@ -88,15 +88,16 @@ nav > ul {
 .header > nav {
     width: 757px;
     margin-right: auto;
+    height: 33px; 
 }
 
 .header-container {
     background-image: url("../img/header_bg.png");
 }
 
-header ul {
+ul.main-menu {
     width: 100%;    
-    height: 33px; 
+    height: 100%;
     justify-content: flex-end;
 }
 
@@ -343,6 +344,11 @@ ul .fb-img > a {
     color: #ff0000;
 }
 
+.contact-row {
+    color: #72716d;
+    justify-content: space-between;
+}
+
 .row-292 {
     width: 292px;
     height: 175px;
@@ -355,11 +361,28 @@ ul .fb-img > a {
     width: 122px;
 }
 
-.col-385 > h4 {
+.col-440 {
+    width: 440px;
+}
+
+.col-440 > h4, .contact-form > h4 {
     font-size: 15px;
 }
 
-.contact-row {
-    color: #72716d;
-    justify-content: space-between;
+.col-440 > h4 {
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 12px;
+    padding-bottom: 4px;    
 }
+
+.contact-form > h4 {
+    color: #005ca0;;
+}
+
+/* .form-container {
+    background-image: url("../img/contact_form_bg.png");
+} */
+
+/* .contact-form {
+    
+} */
