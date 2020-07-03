@@ -342,3 +342,24 @@ ul .fb-img > a {
 .fixed-fotter li:last-child > a {
     color: #ff0000;
 }
+
+.row-292 {
+    width: 292px;
+    height: 175px;
+    /* position: relative; */
+    background-image: url("../img/small_cube_bg.png");
+    /* color: #575757; */
+}
+
+.col-122 {
+    width: 122px;
+}
+
+.col-385 > h4 {
+    font-size: 15px;
+}
+
+.contact-row {
+    color: #72716d;
+    justify-content: space-between;
+}
