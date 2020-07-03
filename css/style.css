@@ -375,8 +375,22 @@ ul .fb-img > a {
     padding-bottom: 4px;    
 }
 
+.contact-form {
+    color: #72716d;
+    font-size: 12px;
+}
+
 .contact-form > h4 {
-    color: #005ca0;;
+    color: #005ca0;
+    margin: 5px 0;
+}
+
+.contact-form > p.sub-headline {
+    color: #6d6d6d;
+    margin: 5px 0;
+    font-size: 13px;
+    width: 347px;
+    font-weight: bold;
 }
 
 /* .form-container {
