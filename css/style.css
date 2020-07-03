@@ -8,6 +8,7 @@ body {
     font-family: 'Arial (Hebrew)', Arial;
     padding-bottom: 38px;
     margin: 0;
+    font-size: 13px;
 }
 
 /* .main-container {
@@ -106,7 +107,7 @@ ul > li.dropdown {
     height: 100%;
 }
 
-ul .home-img > a {
+ul .home-img > a, ul .home-img-cnt > a {
     background-image: url("../img/menu_home.png");
     width: 17px; 
     height: 33px;   
@@ -115,13 +116,18 @@ ul .home-img > a {
     display: inline-block;
 }
 
+ul .home-img-cnt > a {
+    background-image: url("../img/menu_home.png");
+    background-position: top left;
+}
+
 .header a, .first-row a {        
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
 }
 
-a:hover, .fixed-fotter a:hover, .row-292 a:hover {
+a:hover, .fixed-fotter a:hover, .row-292 a:hover, .col-122 > a:hover {
     text-decoration: underline;
     color: #2c5b9e;    
 }
@@ -195,7 +201,7 @@ a:hover, .fixed-fotter a:hover, .row-292 a:hover {
 }
 
 .first-row > .col-293 > .col-text > p {
-    font-size: 13px;
+    /* font-size: 13px; */
     margin: 4px 0 0;
     width: 228px;
     height: 52px;
@@ -204,7 +210,7 @@ a:hover, .fixed-fotter a:hover, .row-292 a:hover {
 
 a.white-arrow {
     display: block;    
-    font-size: 13px;    
+    /* font-size: 13px;     */
     font-weight: normal;
     text-decoration: underline;
     padding-left: 5px;    
@@ -251,7 +257,7 @@ a.white-arrow > .arrow-img {
 a.yellow-arrow {
     display: block;
     margin-top: 20px;
-    font-size: 13px;    
+    /* font-size: 13px;     */
     float: left;
 }
 
@@ -275,7 +281,7 @@ a.yellow-arrow > .yellow-arrow-img {
 
 .second-row > .col-292 > .col-content .location-nav a {
     display: block;
-    font-size: 13px;
+    /* font-size: 13px; */
     margin: 5px;
 }
 
@@ -369,6 +375,16 @@ ul .fb-img > a {
 
 .col-122 {
     width: 122px;
+    height: 36px;
+    background-image: url("../img/side_menu_sprite.png");
+    background-position: right;    
+}
+
+.col-122 > a {
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 15px 10px;
 }
 
 .col-440 {
@@ -407,7 +423,7 @@ ul .fb-img > a {
 .contact-form > p.sub-headline {
     color: #6d6d6d;
     margin: 5px 0;
-    font-size: 13px;
+    /* font-size: 13px; */
     width: 347px;
     font-weight: bold;
 }
@@ -453,7 +469,7 @@ textarea {
 .col-con-292 > .row-292 > .row-content {
     width: 100%;
     height: 100%;
-    font-size: 13px;
+    /* font-size: 13px; */
     position: relative;
     top: 18px;
     right: 20px;
