@@ -1,5 +1,5 @@
 const images = ["paz_250x110103131473.jpg", "banner_atar.jpg", "250X110571325734.jpg"];
-const imageFolderPath = "../../img/";
+const imageFolderPath = "/img/";
 const $image = document.getElementById("changing-img");
 var index = -1;
 
