@@ -357,13 +357,14 @@ ul .fb-img > a {
     height: 36px;
     background-image: url("../img/side_menu_sprite.png");
     background-position: right;    
+    border-top: 1px solid #cbcbcb;
 }
 
 .col-122 > a {
     color: #5c5c5c;
     text-decoration: none;
     display: inline-block;
-    margin: 8px 15px 10px;
+    margin: 8px 15px 10px;    
 }
 
 .col-440 {
