@@ -453,7 +453,9 @@ textarea {
     color: #ffffff;
     background-color: #3873b0;
     max-width: 40px;
+    padding: 1px 7px;
     margin-right: auto;
+    border-top-right-radius: 5px;
 }
 
 #submit:hover {
