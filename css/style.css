@@ -428,8 +428,7 @@ textarea {
     height: 100px;
 }
 
-.form-container {
-    position: relative;
+.form-container {    
     background-image: url("../img/contact_form_bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
