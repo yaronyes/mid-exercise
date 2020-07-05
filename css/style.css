@@ -18,7 +18,7 @@ nav > ul {
 }
 
 .row, .header, ul, .search-area, .stations-content, .fixed-fotter,
-.contact-form > .input-container, .contact-form > .input-container > .form-line {
+.contact-form > .input-container, .form-line {
     display: flex;
     flex-wrap: wrap;
 }
@@ -329,7 +329,7 @@ ul .fb-img > a {
     bottom: -5px;
 }
 
-.fixed-fotter li.red-link > a {
+.fixed-fotter li.red-link > a, .error {
     color: #ff0000;
 }
 
@@ -412,10 +412,14 @@ ul .fb-img > a {
     align-items: center;
 }
 
-.contact-form > .input-container > .form-line {
-    width: 250px;
-    margin-bottom: 5px;
+.form-line {
+    width: 100%;
     justify-content: space-between;
+}
+
+.line-wrapper {
+    width: 250px;
+    margin-bottom: 5px;    
 }
 
 textarea {
@@ -424,13 +428,15 @@ textarea {
 }
 
 .form-container {
-    position: relative;    
+    position: relative;
+    background-image: url("../img/contact_form_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 60px;
 }
 
 .contact-form {
-    position: absolute;
-    bottom: 25px;
-    right: 20px;
+    padding: 12px 18px;
 }
 
 #submit {
@@ -464,4 +470,8 @@ input, textarea {
 
 .row-292 a {
     text-decoration: none;
+}
+
+.error-line {    
+    display: none;
 }
