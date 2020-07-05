@@ -116,13 +116,14 @@ ul .home-img-cnt > a {
     background-position: top left;
 }
 
-.header a, .first-row a {        
+.header a {        
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
 }
 
-a:hover, .fixed-fotter a:hover, .row-292 a:hover, .col-122 > a:hover {
+a:hover, .fixed-fotter a:hover, .row-292 a:hover, .col-122 > a:hover,
+.col-440 > .nav-location > p > a:hover, a.white-arrow:hover > span {
     text-decoration: underline;
     color: #2c5b9e;    
 }
@@ -204,11 +205,16 @@ a:hover, .fixed-fotter a:hover, .row-292 a:hover, .col-122 > a:hover {
 a.white-arrow {
     display: block;    
     font-weight: normal;
-    text-decoration: underline;
+    text-decoration: none;
     padding-left: 5px;    
     float: left;        
     position: relative;
     top: -5px;
+    color: #ffffff;
+}
+
+a.white-arrow > span {
+    text-decoration: underline;
 }
 
 a.white-arrow:hover > .arrow-img,
@@ -250,6 +256,11 @@ a.yellow-arrow {
     display: block;
     margin-top: 20px;
     float: left;
+    text-decoration: none;
+}
+
+a.yellow-arrow > span {
+    text-decoration: underline;
 }
 
 .second-row > .col-292 > .col-content::after,
@@ -402,8 +413,7 @@ ul .fb-img > a {
 
 .contact-form > p.sub-headline {
     color: #6d6d6d;
-    margin: 5px 0;
-    width: 347px;
+    margin: 5px 0;    
     font-weight: bold;
 }
 
@@ -468,7 +478,7 @@ input, textarea {
     font-size: 12px;
 }
 
-.row-292 a {
+.row-292 a, .col-440 > .nav-location > p > a {
     text-decoration: none;
 }
 
