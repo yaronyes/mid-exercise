@@ -116,6 +116,10 @@ ul .home-img-cnt > a {
     background-position: top left;
 }
 
+ul .home-img-cnt > a:hover {
+    background-position: top right;
+}
+
 .header a {        
     font-weight: bold;
     color: #ffffff;
